@@ -1,5 +1,5 @@
 /*Cool colors: #3B322C
-
+#453131
 */
 
 @font-face {
@@ -155,7 +155,7 @@ main {
 }
 
 .set1 {
-   background-color: #FFFFFF;
+   background-color: #232924;
   /*width: 70%;*/
   flex: 1;
 }
@@ -169,6 +169,7 @@ main {
   flex-direction: column;
   align-items: center;
   box-sizing: border-box;
+  border-left: 0.15rem solid #3B322C;
 }
 
 .button-set {
@@ -238,4 +239,72 @@ main {
 }
 .img3:hover{
     cursor: pointer;
+}
+
+/*For the Bio page:*/
+.bio-main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 2rem;
+    font-family: mgpixel;
+    background-color:#7d644e;
+    color: #E2DDD5;
+}
+
+.bio-profile-card{
+    background-color: #b8805b;
+    border: 3px solid #3B322C;
+    padding: 1.5rem;
+    width: 250px;
+    text-align: center;
+}
+
+.bio-avatar-frame{
+    /*v1:
+    border-top: 4px solid #B89696;
+    border-left: 4px solid #B89696;
+    border-right: 4px solid #3B322C;
+    border-bottom: 4px solid #3B322C;
+    padding: 5px;
+     margin-bottom: 1rem;
+    */
+    /*v2*/
+    border: 2px solid #3B322C;
+    outline: 4px solid #3B322C;
+    outline-offset: 4px;
+    margin: 12px;
+    background-color: transparent;
+    padding: 6px;
+   
+}
+
+.bio-avatar{
+    width: 100%;
+    height: auto;
+    display: block;
+    background-color: #89b993;
+}
+
+.bio-stats h2{
+    font-family: fight;
+    margin-top: 0;
+    font-size: 1.4rem;
+}
+
+.bio-stats p span{
+    color: #52745C;
+}
+
+.bio-text-log h1{
+    font-family: fight;
+    margin-top: 0;
+}
+
+.bio-divider{
+    border: 0;
+    height: 2px;
+    background: #3B322C;
+    margin-bottom: 1.5rem;
 }
