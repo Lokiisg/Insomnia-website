@@ -155,12 +155,14 @@ main {
 }
 
 .set1 {
+    border-top: 3px solid #3B322C;
    background-color: #232924;
   /*width: 70%;*/
   flex: 1;
 }
 
 .set2 {
+    border-top: 3px solid #3B322C;
    background-color: #52745C;
   width: 30%;
   /*right bar looked a little too large on big screen*/
