@@ -2,7 +2,7 @@
     <head>
         <!--Here go the fonts and reference to the style sheet-->
         <title>Insomnia</title>
-        <link href="stylesheet.css" rel="stylesheet">
+        <link href="css/stylesheet.css" rel="stylesheet">
         <meta charset="UTF-8">
         <link rel="icon" type="image/x-icon" href="https://www.opleague.pro/styles/media/team/3100/Logo_200.webp?1675771361"> 
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,17 +14,25 @@
         <!--We need the header with the picture and home button-->
         <header>
             <div class="forestImgContainer">
-                <img class="forestImg" src="ForestHeader.jpeg" alt="Forest Treeline" style="width:100%;"/>
+                <img class="forestImg" src="assets/ForestHeader.jpeg" alt="Forest Treeline" style="width:100%;"/>
                 <a href="index.html">
                     <button class="homeBtn" type="button">home</button>
                 </a>
                 <h1 class="headerTitle">Insomnia-Gallery</h1>
             </div>
         </header>
-        <main>
-            <div class="gallery-container">
-                <h1>Cool Art Showcase</h1>
+        <main class="gallery-container">
+            <h1 class="gallery-title">The Art Archive</h1>
+            <div class="art-grid">
+
+                <div class="art-card">
+                    <div class="art-frame">
+                        <img src="assets/EryV3.jpg" alt="Artfight">
+                    </div>
+                    <p class="art-caption">Title</p>
+                </div>
             </div>
+            <!--*Each artwork belongs into its own art-card-->
         </main>
         <footer>
         <!--here would be the place to put the footer with some information, but im not yet sure which information-->

@@ -4,12 +4,12 @@
 
 @font-face {
     font-family: fight;
-    src: url(Fight!.woff);
+    src: url(../fonts/Fight!.woff);
 }
 
 @font-face {
     font-family: mgpixel;
-    src: url(MGPixel.otf);
+    src: url(../fonts/MGPixel.otf);
 }
 
 html, body {
