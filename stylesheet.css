@@ -1,0 +1,241 @@
+/*Cool colors: #3B322C
+
+*/
+
+@font-face {
+    font-family: fight;
+    src: url(Fight!.woff);
+}
+
+@font-face {
+    font-family: mgpixel;
+    src: url(MGPixel.otf);
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    width: 100%;
+    flex: 0 0 auto;
+}
+/*
+main {
+    flex: 1;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    overflow: auto;
+}*/
+
+.forestImgContainer {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 15vh;
+    min-height: 100px;
+}
+
+.forestImg {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+/*
+.rightContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 30%;
+    height: 100%;
+    background-color: aquamarine;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.interaktiveDesk {
+    flex: 1 1 0; 
+    overflow: hidden;
+    margin-right: 5px;
+}
+.interaktiveDesk img{
+    width:100%;
+    height: auto;
+}
+*/
+.homeBtn {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: #D9D9D9;
+    background-color: rgba(184, 150, 150, 0.4);
+    padding: 0.2em 0.5em;
+    font-size: 1.9em;
+    min-width: 60px;
+    min-height: 30px;
+    /*font-family: "DotGothic16", sans-serif;*/
+    font-family: fight;
+    text-transform: uppercase;
+    /*Button looked barely visible on forest backround*/
+    border: 2px solid rgba(59, 50, 44, 0.3);
+    border-radius: 4px;
+    backdrop-filter: blur(1px);
+}
+
+.homeBtn:hover{
+    cursor: pointer;
+}
+.headerTitle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    color: #E5E5E5;
+    /* not sure im 100% in love with this font for the title*/
+    font-family: fight;
+    letter-spacing: 0.1em;
+
+    /*scaling*/
+    font-size: clamp(2rem, 4vw + 1rem, 4.5rem);
+    text-shadow: 3px 3px 0px rgba(59, 50, 44, 0.7);
+    white-space: nowrap;
+}
+/*
+.profileContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 0 0px;
+}
+.profileContainer img{
+    width: 50%;
+    max-width: 100%;
+    height: auto;
+    padding: 2vw;
+}
+
+.nameBox, .box{
+    display: flex;
+    width: 80%;
+    max-height: 8vh;
+    background-color: antiquewhite;
+    margin: 5px 0;
+    padding: 0.5rem;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-family: "DotGothic16", sans-serif;
+    flex: 0 0 auto;
+}
+.crow{
+    margin: 10px 0;
+}
+.crow img{
+    width: 100%;
+    max-height: 5vh;
+    height: auto;
+}
+.h1{
+    text-align: center;
+}*/
+.containeer-1 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background-color: #D9D9D9;
+}
+
+.set1 {
+   background-color: #FFFFFF;
+  /*width: 70%;*/
+  flex: 1;
+}
+
+.set2 {
+   background-color: #52745C;
+  width: 30%;
+  /*right bar looked a little too large on big screen*/
+  max-width: 380px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.button-set {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+}
+
+.img1 {
+  width: 100%; 
+}
+
+.img2 {
+  max-width: 13em; 
+  width: 100%;
+}
+
+.cool-button-bro {
+  background-color: #B89696;
+  border: none;
+  width: 100%;
+  max-width: 20em;
+  margin: 0.6em 0em;
+  /* To make the buttons hopefully scale with the windows size:*/
+  font-size: clamp(0.9rem, 0.6vw + 0.6rem, 1.4rem);
+  padding: 0.5em 1.5em;
+  font-family: mgpixel;
+  color: #3B322C;
+  text-decoration: none;
+  text-decoration-line: none;
+}
+.cool-button-bro:hover{
+    position: relative;
+    top:-10px;
+    filter: drop-shadow(6px 5px rgb(74, 49, 49));
+    cursor: pointer;
+}
+
+.cool-button-bro-1 {
+  background-color: #B89696;
+  border: none;
+  width: 100%;
+  max-width: 20em;
+  margin: 1em 0em 3em 0em;
+  font-size: clamp(0.9rem, 0.6vw + 0.6rem, 1.4rem);
+  padding: 0.5em 1.5em;
+  font-family: mgpixel;
+  color: #3B322C;
+  text-decoration: none;
+  text-decoration-line: none;
+  
+}
+.cool-button-bro-1:hover{
+    position: relative;
+    top:-10px;
+    filter: drop-shadow(6px 5px rgb(74, 49, 49));
+    cursor: pointer;
+}
+
+.bleh {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+}
+.img3:hover{
+    cursor: pointer;
+}

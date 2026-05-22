@@ -1,0 +1,81 @@
+
+
+.body{
+    align-items: normal;
+    position: relative;
+}  
+html {
+min-width: 550px;
+position:sticky;
+justify-content: space-between;
+}
+.header{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: #444444;
+  padding-left: 10px;
+}
+.rightContainer{
+    position:absolute;
+    font-family: 'Rock 3D';
+  display: flex;
+  width:20%;
+  gap: 10px;
+  color:rgb(86, 56, 56);
+  margin:0px;
+ flex-direction: column;
+ justify-content: space-between;
+ right:0;
+ align-items: center;
+ box-sizing: border-box;
+ padding: 1px 1px 1px 1px;
+ background-color: rgb(81, 29, 18);
+}
+.box{
+position:relative;
+  width:100%;
+  height:10%;
+  margin: 2px;
+    padding: 1px 1px 1px 1px;
+    border:rgb(177, 117, 32) 10px double;
+    border-radius: 10px;
+    text-align: center;
+  justify-content:stretch;
+  align-items: center;
+  box-sizing: border-box; 
+  filter: drop-shadow(0 -0mm 2mm rgb(41, 23, 70));
+  background-color: rgb(172, 110, 63);
+}
+.box:hover{
+  
+}
+.nameBox{
+position:relative;
+  width:100%;
+  height:10%;
+  margin: 0px;
+    padding: 1px 1px 1px 0px;
+    border-radius: 0px;
+    text-align: center;
+  justify-content:start;
+  align-items: center;
+  box-sizing: border-box; 
+  filter: drop-shadow(0 -0mm 2mm rgb(41, 23, 70));
+  background-color: rgb(169, 120, 82);
+}
+.profileImage{
+    border: burlywood 4px groove;
+    border-width: 40px;
+}
+h1{
+  font-family: "Birthstone", cursive;
+  font-weight: 400;
+  font-style: normal;
+
+}
+.desk{
+    box-sizing: border-box;
+    align-items: flex-start;
+}
