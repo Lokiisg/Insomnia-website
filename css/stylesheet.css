@@ -189,6 +189,9 @@ main {
   max-width: 13em; 
   width: 100%;
 }
+.img3{
+    width: 50%;
+}
 
 .cool-button-bro {
   background-color: #B89696;
