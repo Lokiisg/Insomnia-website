@@ -189,8 +189,26 @@ main {
   max-width: 13em; 
   width: 100%;
 }
-.img3{
+.crow-container{
     width: 50%;
+    position: relative;
+    cursor: pointer;
+}
+.crow-img{
+    width: 100%;
+    display: block;
+    height: auto;
+}
+.crow-container .hover{
+    display: none;
+}
+
+.crow-container:hover .normal{
+    display: none;
+}
+
+.crow-container:hover .hover{
+    display: block;
 }
 
 .cool-button-bro {
@@ -242,9 +260,7 @@ main {
   align-items: center;
   text-decoration: none;
 }
-.img3:hover{
-    cursor: pointer;
-}
+
 
 /*For the Bio page:*/
 .bio-main{
